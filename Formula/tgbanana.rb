@@ -1,4 +1,4 @@
-class Banana < Formula
+class Tgbanana < Formula
   desc "Banana command-line tool"
   homepage "https://example.org/banana"
   version "0.0.1"
@@ -7,7 +7,7 @@ class Banana < Formula
   license :cannot_represent
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey" # macOS 12+
+  depends_on macos: :monterey # macOS 12+
 
   def install
     bin.install "bin/banana"

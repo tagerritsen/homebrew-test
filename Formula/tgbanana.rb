@@ -10,7 +10,7 @@ class Tgbanana < Formula
   depends_on macos: :monterey # macOS 12+
 
   def install
-    bin.install "bin/banana"
+    bin.install "bin/tgbanana"
     lib.install Dir["lib/*"]
     # share.install "share/banana" if you have extra data, etc.
   end
